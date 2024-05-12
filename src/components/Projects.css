@@ -1,0 +1,297 @@
+
+  .project-page{
+    padding-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center; 
+
+  }
+  .transbox-with-padding {
+    width: 60%;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .assignment-part {
+    margin: 20px 0;
+  }
+  
+  .assignment-part h2 {
+    font-size: 1.5em;
+    color: #000000;
+  }
+  
+  .assignment-part p {
+    color: #000000;
+  }
+  
+  img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 8px 8px 8px 8px;
+  }
+  
+  ul {
+    text-align: justify;
+    color: #000000;
+    list-style-position: inside;
+  
+  }
+  
+  p {
+    text-align: justify;
+  }
+  .back-to-home-button {
+    text-decoration: none; /* Remove default underline */
+    color: #ffffff; /* Set text color */
+    background-color: #8399b2; /* Set background color */
+    padding: 5px 5px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  #github{
+    transform: scale(1.5);
+}
+h1{
+  color: #000000;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.project-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro,
+.competitive-analysis,
+.implementation,
+.website-theme,
+.takeaways,
+.final-site {
+  margin-bottom: 60px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.yes {
+  color: green;
+  font-weight: bold;
+}
+
+.no {
+  color: red;
+  font-weight: bold;
+}
+
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  width: 100%;
+}
+
+.screenshot {
+  text-align: center;
+}
+
+.screenshot img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wireframe-container{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+
+
+.screenshots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    width: 100%;
+  }
+  body {
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  .intro, .competitive-analysis, .implementation, .website-theme, .takeaways, .final-site {
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
+  .home-icon {
+    width: 26px; 
+    height: 26px; 
+    fill: #151515; 
+  }
+  #pasta-wireframe{
+    height:35vh;
+    width: 35vw;
+  }
+  .FAShomepage{
+    height: 12rem;
+  }
+  .top{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .side-by-side{
+    display: flex;
+  }
+
+  h2{
+    padding-top: 3rem;
+    text-align: left;
+  }
+
+  .nav-item > a {
+    color: #000; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-item > a:hover {
+    color: #ff0000; /* Color change on hover */
+  }
+
+  .logo-container {
+    flex: .2;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+  }
+  
+  .navbar {
+    flex: 1;
+    color:black;
+  }
+  
+  .nav-list {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding-right: 30px;
+  }
+
+  .code-snippet{
+    justify-self: right;
+  }
+
+  #code-images{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 25px;
+  }
+  
+  #features{
+    display: flex;
+    
+  }
+
+  #features-list{
+    padding-right: 5rem;
+  }
+
+  .sidebyside{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dev-list{
+    padding: 20px;
+  }
+ .overview{
+  line-height: 3.5;
+  text-align: left;
+ }
